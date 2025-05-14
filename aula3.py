@@ -16,7 +16,7 @@ def listar_pokemons(limit=1302):  # Pode mudar o limite para mais Pokémons
     if resposta.status_code == 200:
         resultados = resposta.json()['results']
         nomes = sorted(list({p['name'] for p in resultados}))  # remove duplicatas e ordena
-        st.markdown(f"**Quatidade:** {limit}")
+        st.markdown(f"**Quantidade:** {limit}")
         return nomes
         
     return []
