@@ -17,6 +17,7 @@ def listar_pokemons(limit=1302):  # Pode mudar o limite para mais Pokémons
         resultados = resposta.json()['results']
         nomes = sorted(list({p['name'] for p in resultados}))  # remove duplicatas e ordena
         return nomes
+        st.write(f"total de Pokemon na Base: {limit}")
     return []
 
 # Função para obter dados detalhados de um Pokémon
