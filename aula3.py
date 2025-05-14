@@ -87,6 +87,6 @@ if pokemon_input:
 
     else:
         st.error("Pokémon não encontrado ou erro na API.")
-
+st.write(f"total de Pokemon na Base: {limit}")
 
     
