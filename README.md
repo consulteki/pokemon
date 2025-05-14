@@ -5,6 +5,8 @@
 Exercicio para consolidação de conhecimentos usando as bibliotecas do python :
 
 
-- request - Api
+- request - Api 
 - pandas  - Dados
 - seaborn - Visualização/Graficos
+- matplot - Visualização/Graficos
+- streamlit - Front End Web
