@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Pokémon Explorer", layout="wide")
 
-st.header("Analise de Pokémons - CDN1 - EFG-APARECIDA")
+st.header("Analise de Pokémons -TURMA CDN1 2024 - EFG-LUIZ RASSI APARECIDA DE GOIÂNIA")
 
 # Função para obter a lista de Pokémons da API
 @st.cache_data
